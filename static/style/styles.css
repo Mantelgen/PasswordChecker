@@ -59,7 +59,7 @@ form {
 	gap: 1rem;
 }
 
-input[type="password"] {
+input[type="password"], input[type="text"], input[type="email"] {
 	padding: 0.75rem;
 	border: 1px solid #bfc9d4;
 	border-radius: 8px;
@@ -67,7 +67,7 @@ input[type="password"] {
 	outline: none;
 	transition: border-color 0.2s;
 }
-input[type="password"]:focus {
+input[type="password"]:focus, input[type="text"]:focus, input[type="email"]:focus {
 	border-color: #74ebd5;
 }
 
